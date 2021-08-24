@@ -1,0 +1,36 @@
+.header {
+  background: linear-gradient(to top left, #e66465, #9198e5);
+  height: 100vh;
+  position: relative;
+  font-weight: 100;
+  font-size: 3rem;
+  border-radius: 30px 30px 0 0;
+  animation: moveInUp 1s;
+}
+.header-menu-burger {
+  position: absolute;
+  top: 3rem;
+  left: 90vw;
+  height: 4rem;
+  animation: moveInRight 2s;
+}
+.header-main {
+  margin-top: 10vh;
+  text-align: center;
+  animation: moveInUp 2s;
+}
+.header-span {
+  font-weight: 500;
+}
+.header-description {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+.header-title {
+  padding: 3rem;
+  animation: moveInLeft 2s;
+}
+.header-gif img {
+  height: 50rem;
+  border-radius: 30px;
+}
