@@ -145,6 +145,11 @@
     }
   }
   ```
+  
+  ##### Version mobile:
+  
+  ![](https://imagizer.imageshack.com/img924/8640/dovknM.jpg)
+  
 
 - #### Les animations en CSS
 
