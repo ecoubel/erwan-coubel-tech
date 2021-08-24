@@ -1,6 +1,6 @@
 # Projet CV en ligne
 
-- #### Un projet avec un design sobre et moderne
+- #### Un projet avec un **design sobre** et **moderne**
 
   
 
@@ -8,7 +8,7 @@
 
   
 
-- #### Une organisation nouvelle pour moi
+- #### Une **organisation** nouvelle pour moi
 
   > Sur ce projet, j'utilise énormément le SCSS comme vous pouvez le voir. J'ai voulu essayer une nouvelle organisation pour pouvoir mieux m'y retrouver et ne pas avoir une énorme page CSS dans laquelle je serais complètement perdu. Je me suis donc inspiré de l'**Architecture en 7-1** (Un peu simplifié pour ce petit projet). Ainsi que des **classes optimisé pour l'utilisation du SCSS.**  
 
@@ -36,7 +36,7 @@
       </header>
   ```
 
-  ##### En SCSS celà me permet de pouvoir simplifier le tout: 
+  ##### En SCSS celà me permet de pouvoir **simplifier** le tout: 
 
   ```scss
   .header {
@@ -80,7 +80,7 @@
 
   
 
-- #### Un design responsive avec les media queries
+- #### Un design **responsive** avec les media queries
 
   > J'ai découvert les **media queries** avec ce projet, cette exercice bien qu'assez long m'a vraiment plus. Je trouve ça plus sympa à utiliser que *bootstrap*. La personnalisation selon chaque appareil n'a pas de limite. Cependant, j'ai encore l'impression de ne pas l'optimisé.. Je pense pouvoir simplifier mon code, mais j'en suis pas moins fier !
 
@@ -151,7 +151,7 @@
   ![](https://imagizer.imageshack.com/img924/8640/dovknM.jpg)
   
 
-- #### Les animations en CSS
+- #### Les **animations** en CSS
 
   > Première utilisation également des animations CSS. Rien de très impressionnant mais ça rend vraiment un meilleur rendu je trouve. Cependant, j'ai un eu un peu de mal pour les animations du bloc CV. Effectivement j'ai du utiliser une **API (prochaines et dernières puces ⬇️)**
 
@@ -169,7 +169,7 @@
   }
   ```
 
-- #### Utilisation d'une API en JavaScript pour animer le contenue au scroll de la page
+- #### Utilisation d'une **API en JavaScript** pour animer le contenue au scroll de la page
 
   > En effet, je voulais absolument intégré des animations qui se déclanche au moment où l'on arrive sur l'élement. J'ai donc cherché sur *stackoverflow*, et je suis tombé sur une solution. L'utilisation de l'**API Intersection Observer,** alors j'ai rechercher des explications et pris 30minutes à chercher sur VSCode comment l'utiliser avec un "querySelectorAll" car j'avais plusieurs éléments a observer.. Et j'ai réussi !
 
