@@ -146,9 +146,7 @@
   }
   ```
   
-  ##### Version mobile:
-  
-  ![](https://imagizer.imageshack.com/img924/8640/dovknM.jpg)
+  ![](https://imagizer.imageshack.com/img923/4813/IzwPJf.png)
   
 
 - #### Les **animations** en CSS
