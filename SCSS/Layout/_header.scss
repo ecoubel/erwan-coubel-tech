@@ -1,14 +1,14 @@
 .header {
   background-image: url(/img/backgroundheader.jpg);
-  height: 100vh;
   position: relative;
   border-radius: 30px 30px 0 0;
-
+  height: max-content;
   &-top {
     display: flex;
     flex-direction: row;
     padding: 3rem;
     justify-content: space-between;
+    width: auto;
   }
 
   &-nav-list {
@@ -20,7 +20,7 @@
   }
 
   &-main {
-    margin-top: 10vh;
+    margin-top: 15vh;
   }
 
   &-description {
@@ -31,5 +31,6 @@
     height: 50rem;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5rem;
   }
 }

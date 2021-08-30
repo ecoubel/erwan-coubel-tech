@@ -8,17 +8,17 @@
   }
 
   .header {
-    height: 70vh;
     font-size: 1rem;
     border-radius: 0;
-    &-menu-burger {
+    &-nav-item {
       left: 85vw;
       height: 2rem;
+      font-size: 0.5rem;
     }
     &-description {
       font-size: 2rem;
     }
-    &-gif img {
+    &-gif {
       height: 15rem;
     }
     &-title {
@@ -74,12 +74,12 @@
   }
 
   .header {
-    height: 70vh;
     font-size: 2rem;
     border-radius: 0;
-    &-menu-burger {
+    &-nav-item {
       left: 85vw;
-      height: 3rem;
+      height: 2rem;
+      font-size: 0.5rem;
     }
     &-description {
       font-size: 4rem;
@@ -137,18 +137,21 @@
   }
 
   .header {
-    height: 70vh;
     font-size: 2rem;
     border-radius: 0;
-    &-menu-burger {
-      left: 85vw;
-      height: 3rem;
+    &-nav-item {
+      display: none;
     }
     &-description {
       font-size: 4rem;
     }
-    &-gif img {
-      height: 15rem;
+    &-gif {
+      height: 20rem;
+    }
+    &-top {
+      display: block;
+      text-align: center;
+      font-size: 4rem;
     }
   }
 
@@ -202,12 +205,12 @@
   }
 
   .header {
-    height: 70vh;
     font-size: 2rem;
     border-radius: 0;
-    &-menu-burger {
+    &-nav-item {
       left: 85vw;
-      height: 3rem;
+      height: 2rem;
+      font-size: 0.5rem;
     }
     &-description {
       font-size: 4rem;

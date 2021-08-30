@@ -111,15 +111,16 @@ body {
 
 .header {
   background-image: url(/img/backgroundheader.jpg);
-  height: 100vh;
   position: relative;
   border-radius: 30px 30px 0 0;
+  height: max-content;
 }
 .header-top {
   display: flex;
   flex-direction: row;
   padding: 3rem;
   justify-content: space-between;
+  width: auto;
 }
 .header-nav-list {
   display: flex;
@@ -129,7 +130,7 @@ body {
   padding: 1rem;
 }
 .header-main {
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 .header-description {
   margin-bottom: 2rem;
@@ -138,6 +139,7 @@ body {
   height: 50rem;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 5rem;
 }
 
 .main {
@@ -182,18 +184,18 @@ body {
   }
 
   .header {
-    height: 70vh;
     font-size: 1rem;
     border-radius: 0;
   }
-  .header-menu-burger {
+  .header-nav-item {
     left: 85vw;
     height: 2rem;
+    font-size: 0.5rem;
   }
   .header-description {
     font-size: 2rem;
   }
-  .header-gif img {
+  .header-gif {
     height: 15rem;
   }
   .header-title {
@@ -243,13 +245,13 @@ body {
   }
 
   .header {
-    height: 70vh;
     font-size: 2rem;
     border-radius: 0;
   }
-  .header-menu-burger {
+  .header-nav-item {
     left: 85vw;
-    height: 3rem;
+    height: 2rem;
+    font-size: 0.5rem;
   }
   .header-description {
     font-size: 4rem;
@@ -301,19 +303,22 @@ body {
   }
 
   .header {
-    height: 70vh;
     font-size: 2rem;
     border-radius: 0;
   }
-  .header-menu-burger {
-    left: 85vw;
-    height: 3rem;
+  .header-nav-item {
+    display: none;
   }
   .header-description {
     font-size: 4rem;
   }
-  .header-gif img {
-    height: 15rem;
+  .header-gif {
+    height: 20rem;
+  }
+  .header-top {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
   }
 
   .main {
@@ -359,13 +364,13 @@ body {
   }
 
   .header {
-    height: 70vh;
     font-size: 2rem;
     border-radius: 0;
   }
-  .header-menu-burger {
+  .header-nav-item {
     left: 85vw;
-    height: 3rem;
+    height: 2rem;
+    font-size: 0.5rem;
   }
   .header-description {
     font-size: 4rem;
