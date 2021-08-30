@@ -1,12 +1,70 @@
 // Font Import
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap");
 
+// Divide: GENERAL
+
 html {
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
-  color: $color-white;
+  color: $text-color;
 }
 
-header {
-  font-size: 1.6rem;
+a {
+  text-decoration: none;
+  color: $text-color;
 }
+
+a:hover {
+  color: $link-hover-color;
+}
+
+// Divide: HEADER TYPO :
+
+.header {
+  font-size: 3rem;
+  font-weight: 100;
+
+  &-nav-list {
+    text-decoration: none;
+  }
+
+  &-main {
+    text-align: center;
+  }
+
+  &-span {
+    font-weight: 500;
+  }
+
+  &-description {
+    font-size: 6rem;
+    font-weight: lighter;
+  }
+
+  &-nav-item {
+    list-style: none;
+    color: $text-color;
+    font-size: 2.5rem;
+    font-weight: lighter;
+  }
+}
+
+// Divide: MAIN TYPO
+
+.main {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: $text-color-dark;
+
+  &-subtitle {
+    font-size: 4rem;
+  }
+
+  &-content {
+    color: $text-color-dark;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+}
+
+// Divide: FOOTER Typo

@@ -1,33 +1,23 @@
 .main {
-  background: rgba(194, 194, 194, 0.5);
+  background: $color-back-main;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  color: rgb(20, 20, 20);
   padding-bottom: 20rem;
-  &-subtitle {
-    font-size: 4rem;
-    margin-top: 15rem;
-  }
-
-  &-content {
-    color: black;
-    font-weight: 300;
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
-  }
-
-  &-center {
-    margin-top: 15rem;
-  }
 
   &-left {
     margin-top: $margin-top-base;
   }
 
-  &-right {
+  &-subtitle {
+    margin-top: $margin-top-base;
+  }
+
+  &-content {
+    margin-top: 1.5rem;
+  }
+
+  &-center {
     margin-top: $margin-top-base;
   }
 
@@ -38,12 +28,8 @@
     justify-content: space-around;
     margin-top: 10rem;
   }
-}
 
-.onscroll-right {
-  animation: moveInLeft 1s;
-}
-
-.onscroll-left {
-  animation: moveInRight 1s;
+  &-right {
+    margin-top: $margin-top-base;
+  }
 }

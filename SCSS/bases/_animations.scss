@@ -1,3 +1,5 @@
+// Divide: Keyframes init
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -33,3 +35,31 @@
     transform: translate(0);
   }
 }
+
+// Divide: Animation on content
+
+// Header:
+
+.header {
+  animation: moveInUp 1s;
+
+  &-title {
+    animation: moveInLeft 2s;
+  }
+
+  &-main {
+    animation: moveInUp 2s;
+  }
+
+  &-nav {
+    animation: moveInRight 3s;
+  }
+}
+
+//Divide: Main animation with JS
+
+.onscroll-left {
+  animation: moveInRight 1s;
+}
+
+//Divide: FOOTER

@@ -1,13 +1,13 @@
-@import "bases/variables";
-@import "bases/restart";
-@import "bases/typo";
-@import "bases/animations";
+@import "SCSS/bases/variables";
+@import "SCSS/bases/restart";
+@import "SCSS/bases/typo";
+@import "SCSS/bases/animations";
 
-@import "layout/body";
-@import "layout/header";
-@import "layout/cvpart";
-@import "layout/contact";
-@import "layout/responsive";
+@import "SCSS/layout/body";
+@import "SCSS/layout/header";
+@import "SCSS/layout/cvpart";
+@import "SCSS/layout/contact";
+@import "SCSS/layout/responsive";
 
-@import "components/button";
-@import "components/darkmode";
+@import "SCSS/components/button";
+@import "SCSS/components/darkmode";
