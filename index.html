@@ -32,30 +32,37 @@
   <body>
     <!-- Header-->
 
-    <header class="header">
-      <p class="header-title">/Erwan.Coubel</p>
-      <img
-        src="menu-burger-crop.png"
-        alt="The menu"
-        class="header-menu-burger"
-        draggable="false"
-      />
+    <header class="header" id="link-header">
+      <div class="header-top">
+        <p class="header-title">/Erwan.Coubel</p>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="#link-header">Welcome</a></li>
+            <li class="header-nav-item"><a href="#link-main">About Me</a></li>
+            <li class="header-nav-item"><a href="#link-footer">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
       <section class="header-main">
         <h2 class="header-description">
           Welcome to my personal <span class="header-span">website</span>
         </h2>
-        <section class="header-gif">
-          <img
-            src="https://i.gifer.com/3SBP.gif"
-            alt="Gif of web development"
-            draggable="false"
-          />
+        <section class="header-gif-section">
+          <lottie-player
+            src="https://assets3.lottiefiles.com/packages/lf20_ubqfycud.json"
+            background="transparent"
+            speed="1"
+            style="width: 500px; height: 500px"
+            loop
+            autoplay
+            class="header-gif"
+          ></lottie-player>
         </section>
       </section>
     </header>
 
     <!-- Main -->
-    <main class="main">
+    <main class="main" id="link-main">
       <section class="main-left">
         <div class="main-left-top">
           <p class="main-subtitle">WORKED FOR</p>
@@ -67,13 +74,17 @@
         </div>
       </section>
       <section class="main-center">
-        <div class="main-center-top">
-          <img src="logocode.png" alt="Image </>" draggable="false" />
-        </div>
+        <div class="main-center-top"></div>
         <div class="main-center-bottom">
-          <p class="main-content">Instagram↗</p>
-          <p class="main-content">GitHub↗</p>
-          <p class="main-content">Linkedin↗</p>
+          <a href="https://www.instagram.com/erwancoubel/" target="_blank"
+            ><p class="main-content">Instagram↗</p></a
+          >
+          <a href="https://github.com/jigmyers" target="_blank"
+            ><p class="main-content">GitHub↗</p></a
+          >
+          <a href="https://www.linkedin.com/in/erwancoubel/" target="_blank"
+            ><p class="main-content">Linkedin↗</p></a
+          >
         </div>
       </section>
       <section class="main-right">
@@ -97,7 +108,8 @@
     </main>
 
     <!-- Footer-->
-    <footer class="footer"></footer>
+    <footer class="footer" id="link-footer"></footer>
     <script src="javascript/index.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>

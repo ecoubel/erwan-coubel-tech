@@ -1,3 +1,5 @@
+"use strict";
+
 const ratio = 0.1;
 
 const options = {
@@ -22,3 +24,17 @@ const observer = new IntersectionObserver(callback, options);
 document.querySelectorAll(".main-content").forEach(function (s) {
   observer.observe(s);
 });
+
+document
+  .querySelectorAll(
+    'a[href^="#link-main"], a[href^="#link-header"], a[href^="#link-footer"]'
+  )
+  .forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
